@@ -1,4 +1,4 @@
-## sphx
+### sphx
 
 a cli token generator built with rust.
 
