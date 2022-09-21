@@ -1,3 +1,8 @@
+use sphx;
+
 fn main() {
-    println!("Hello, world!");
+    match sphx::run() {
+        Ok(value) => println!("{}", value),
+        Err(e) => eprintln!("Failed running command: {}", e),
+    }
 }
